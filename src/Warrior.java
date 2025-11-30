@@ -3,14 +3,12 @@ public class Warrior {
     private AttackBehavior attackBehavior;
     private MoveBehavior moveBehavior;
 
-
    public interface AttackBehavior{
        String attack();
     }
    public interface MoveBehavior {
         String move();
     }
-
 
     public Warrior(AttackBehavior attackBehavior, MoveBehavior moveBehavior){
         this.attackBehavior = attackBehavior;

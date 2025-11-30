@@ -1,3 +1,3 @@
-public class AttackBehavior {
-    
+public interface AttackBehavior {
+    String attack();
 }
