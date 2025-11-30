@@ -1,5 +1,6 @@
-public class GunAttack implements AttackBehavior {
+public class GunAttack implements Warrior.AttackBehavior {
+    @Override
     public String attack(){
-        return "Shoots a bulet";
+        return "Shoots a bullet";
     }
 }
